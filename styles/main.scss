@@ -1,0 +1,226 @@
+$font-color-normal: #565D64;
+$font-text: sans-serif;
+$font-color-hover: black;
+
+
+body div {
+	background-color: white;
+	padding: 0em .3em;
+	overflow: hidden;
+	margin: 0 auto;
+		
+			a.big {
+				color: $font-color-normal;
+				font-size: 1em;
+				float: left;
+				text-decoration: none;
+				overflow: hidden;
+				line-height: 250%;
+				margin: 0 .8em;
+			}
+			.small {
+				color: $font-color-normal;
+				font-size: 1em;
+				float: left;
+				margin: .6em 1em;
+				text-decoration: none;
+			}
+			a:hover {
+				color: black;
+			}
+			div.topmenu {
+				float: left;
+				display: inline-block;
+				margin: 0 auto;
+			}
+		
+}
+.topBanner {
+	background-image: url(/images/background.jpg);
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding: 2em 1em;
+	margin: 0 0 1.5em 0;
+
+	p {
+		margin: 0 auto;
+		text-shadow: 0px 1px 1px #000;
+	}
+}
+
+.font1 {
+	color: white;
+	font-size: 1em;
+	margin: 2em auto 0 auto;
+	background-color: transparent;
+	letter-spacing: 0.2em;
+
+}
+.font2 {
+	color: white;
+	font-size: 6em;
+	background-color: transparent;
+	font-weight: lighter;
+}
+
+.font3 {
+	color: #fff;
+	font-size: 1em;
+	margin: 0 auto 2em auto;
+	background-color: transparent;
+	letter-spacing: 0.2em;
+	opacity: .5;
+}
+.inset {
+	background-color: white;
+	padding: 0 .5em;
+	margin: 0 auto;
+	overflow: hidden;
+
+	.cost {
+		background-color: #519251;
+		text-align: center;
+		}
+	.cost2 {
+		background-color: #2C4985;
+		text-align: center;
+		}
+	.cost3 {
+		background-color: #000;
+		text-align: center;
+		}
+	.options {
+		color: #5A676D;
+		font-size: 1em;
+		background-color: #F7F7F7;
+		text-align: center;
+		border: 1px solid #E7E7E7;
+		padding: 1em 0;
+		}
+	p {
+		text-align: center;
+		padding: 1.8em 0;
+		border: 1px solid #E7E7E7;
+		margin: 0 0 2em 0;
+
+		}
+		.choose {
+		text-decoration: none;
+		color: black;
+		border: 2px solid #E7E7E7;
+		font-weight: bolder;
+		border-radius: 25px;
+		text-align: center;
+		margin: 1em auto;
+		padding: .5em 1em;
+		}
+
+}
+.spacer {
+	padding: 2.5em 0;
+}
+.inset2 {
+	padding: 0 1em;
+}
+.textContainer {
+	padding: 0em 1em 0em 1em;
+	.header {
+		text-align: left;
+		color: black;
+		background-color: transparent;
+		font-size: 1.2em;
+		letter-spacing: .2em;
+		margin-bottom: .8em;
+	}
+	.text {
+		font-size: 1em;
+		color: #5A676D;
+		margin-bottom: 1.5em;
+	}
+}
+.footer{
+	background-color: black;
+	padding: 1.5em 2em;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid white;
+	line-height: 150%;
+	width: 100;
+
+	.link {
+		text-align: center;
+		color: #DDDDDD;
+		background-color: transparent;
+	}
+	span {
+		color: #888888;
+		background-color: transparent;
+		padding: 2em 0;
+		text-align: center;	
+	}
+}
+@media (min-width: 478px) {
+	.topBanner {
+		padding: 5em 0;
+		width: 100%;
+	}
+	.topBanner p {
+		font-size: 1.5em;
+	}
+}
+@media (min-width: 767px) {
+	.inset {
+		width: 100%;
+		padding: 0 0;
+	}
+	.planContainer {
+		display: inline-block;
+		float: left;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.planContainerWhite {
+		background-color: white;
+		box-sizing: border-box;
+		width: 33%;
+		display: inline-block;
+		margin-left: -.25em;
+	}
+	.textContainer {
+		display: inline-block;
+		box-sizing: border-box;
+		text-align: left;
+		width: 49%;
+		float: left;
+		margin: 0 auto;
+	}
+	.header {	
+		display: inline-block;
+	}
+	.text {
+		width: 50%;
+		clear: both;
+		margin: 0 0 ;
+	}
+	.inset2 {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+}
+@media (min-width: 978px) {
+	.inset {
+	}
+	.inset2 {
+	padding: 0 5%;
+	width: 100%;
+	}
+	.planContainer {
+		box-sizing: border-box;
+	}
+	.planContainerWhite {
+		box-sizing: border-box;
+		width: 33%;
+	}
+}
